@@ -1,0 +1,85 @@
+@media screen and (max-width: 1024px) {
+
+
+}
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+
+body{
+    margin: 0;
+    min-width: 300px;
+    background-image: url(images/todoWall.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+#container{
+   position: relative;
+    margin-left: 400px;
+    margin-top: 400px;
+    border-radius: 10px 20px 10px 20px;
+    border: yellow;
+    min-width: 500px;
+}
+
+h1{
+    background-color: greenyellow;
+    font-weight: 30;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 300px;
+}
+#data{
+    padding: 15px 70px 15px 70px;
+    border: red;
+    border-radius: 10px;
+    border-color: green;
+}
+.addButton{
+    padding: 20px 40px;
+    border:green;
+    border-radius: 10px;
+    color:green;
+    cursor: pointer;
+    background-color: white;
+}
+
+.addButton:hover{
+     color:white;
+     transition: 0.3s;
+     background-color:green;
+}
+ul{
+    margin-left: 400px;
+    margin-right: 700px;
+    list-style-type: none;
+    padding: 6px;
+    min-width: 300px;
+}
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    background-color: teal;
+    
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 100px 6px 100px;
+    size: 1em;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  ul li:nth-child(even){
+      background: tomato;
+  }
